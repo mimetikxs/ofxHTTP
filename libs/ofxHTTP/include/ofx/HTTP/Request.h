@@ -11,6 +11,7 @@
 #include <string>
 #include "ofConstants.h"
 #include "json.hpp"
+#include <memory>
 #include "ofTypes.h"
 #include "ofLog.h"
 #include "ofUtils.h"

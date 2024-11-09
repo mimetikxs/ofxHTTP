@@ -12,6 +12,7 @@
 #include "Poco/Net/HTTPRequest.h"
 #include "Poco/Net/HTTPResponse.h"
 #include "Poco/URI.h"
+#include <memory>
 #include "ofTypes.h"
 #include "ofx/HTTP/Cookie.h"
 #include "ofx/IO/FilteredStreams.h"

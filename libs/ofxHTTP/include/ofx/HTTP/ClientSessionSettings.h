@@ -11,6 +11,7 @@
 #include <string>
 #include "Poco/Timespan.h"
 #include "Poco/Net/NameValueCollection.h"
+#include <memory>
 #include "ofTypes.h"
 #include "ofx/HTTP/ProxySettings.h"
 #include "ofx/HTTP/HTTPUtils.h"

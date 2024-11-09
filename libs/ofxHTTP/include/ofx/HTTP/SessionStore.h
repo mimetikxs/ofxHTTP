@@ -11,6 +11,7 @@
 #include <string>
 #include <map>
 #include "Poco/Mutex.h"
+#include <memory>
 #include "ofTypes.h"
 #include "ofx/HTTP/AbstractServerTypes.h"
 

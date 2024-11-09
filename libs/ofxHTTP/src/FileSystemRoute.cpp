@@ -150,7 +150,8 @@ void FileSystemRoute::handleRequest(ServerEventArgs& evt)
     }
 
     ofFile file(requestPathString); // use it to parse file name parts
-    std::string mediaTypeString = MediaTypeMap::getDefault()->getMediaTypeForPath(file.path()).toString();
+    auto poco_path = Poco::Path(file.path().c_str());
+    std::string mediaTypeString = MediaTypeMap::getDefault()->getMediaTypeForPath(poco_path).toString();
 
     try
     {
